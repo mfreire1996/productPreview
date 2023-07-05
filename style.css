@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.image {
+  display: inline-block;
+}
+.image img {
+  width: 25rem;
+  height: auto;
+  border-radius: 15px 0 0 15px;
+}
+
+.text {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 0 15px 15px 0;
+  margin-top: -0.29rem;
+  height: 37.5rem;
+  width: 25rem;
+  line-height: 1.6;
+}
+.text h3 {
+  font-weight: 200;
+}
+
+.text-section {
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+  max-width: 75%;
+}
+.text-section h1 {
+  max-width: 70%;
+}
+.text-section h3:nth-child(1) {
+  letter-spacing: 10px;
+}
+.text-section p {
+  font-weight: 500;
+  max-width: 100%;
+}
+
+.buy h1 {
+  display: inline-block;
+}
+.buy h1:nth-child(1) {
+  color: green;
+}
+.buy h1:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.buy button {
+  background: green;
+  border-radius: 15px;
+  border: none;
+  width: 75%;
+  padding: 1rem;
+  color: #fff;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
